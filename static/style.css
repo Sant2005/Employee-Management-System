@@ -1,0 +1,25 @@
+.container {
+    max-width: 600px;
+}
+
+.card {
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+h2, h4 {
+    color: #343a40;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.6rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn i {
+    margin-right: 0.5rem;
+}

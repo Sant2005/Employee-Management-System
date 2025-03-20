@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Attendance</h2>
+<ul>
+    {% for record in attendance %}
+    <li>Employee ID: {{ record[1] }}, Date: {{ record[2] }}, Status: {{ record[3] }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
